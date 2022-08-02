@@ -4,7 +4,8 @@
   "description": "\"PoC com teste de contrato com Pact\"",
   "main": "index.js",
   "scripts": {
-    "test:contract": "jest --runInBand src/apis/articles.spec.js"
+    "test:contract": "jest --runInBand src/apis/articles.spec.js",
+    "publish:pact": "node ./contract/publish.js"
   },
   "jest": {
     "testEnvironment": "node",
