@@ -1,0 +1,28 @@
+{
+  "name": "consumer-fake",
+  "version": "1.0.0",
+  "description": "\"PoC com teste de contrato com Pact\"",
+  "main": "index.js",
+  "scripts": {
+    "test:contract": "jest --runInBand src/apis/articles.spec.js"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {
+      ".(js|jsx|ts|tsx)": "@sucrase/jest-plugin"
+    }
+  },
+  "author": "Pri Campos",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "@pact-foundation/pact": "^10.0.1",
+    "@pact-foundation/pact-node": "^10.17.6",
+    "@sucrase/jest-plugin": "^2.2.1",
+    "chai": "^4.3.6",
+    "jest": "^28.1.3"
+  }
+}

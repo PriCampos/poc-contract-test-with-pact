@@ -1,0 +1,49 @@
+{
+  "consumer": {
+    "name": "ArticleWeb"
+  },
+  "interactions": [
+    {
+      "description": "Solicitação para retornar artigos",
+      "request": {
+        "method": "GET",
+        "path": "/articles"
+      },
+      "response": {
+        "body": [
+          {
+            "response": {
+              "articles": [
+                {
+                  "author": "Priscila Campos",
+                  "name": "Estratégia de Teste para APIs",
+                  "publicationDate": "Jul 26, 2022",
+                  "readingTime": 3
+                }
+              ]
+            }
+          }
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      }
+    }
+  ],
+  "metadata": {
+    "pact-js": {
+      "version": "10.0.1"
+    },
+    "pactRust": {
+      "ffi": "0.2.4",
+      "models": "0.3.1"
+    },
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  },
+  "provider": {
+    "name": "ArticleAPI"
+  }
+}
