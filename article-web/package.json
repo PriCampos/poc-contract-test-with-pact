@@ -1,7 +1,7 @@
 {
   "name": "consumer-fake",
   "version": "1.0.0",
-  "description": "\"PoC com teste de contrato com Pact\"",
+  "description": "PoC com teste de contrato com Pact",
   "main": "index.js",
   "scripts": {
     "test:contract": "jest --runInBand src/apis/articles.spec.js",
