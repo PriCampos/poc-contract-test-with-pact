@@ -1,0 +1,15 @@
+{
+  "articles": [
+    {
+      "response": {
+        "articles": [{
+          "name": "Estratégia de Teste para APIs",
+          "readingTime": 3,
+          "author": "Priscila Campos",
+          "publicationDate": "Jul 26, 2022",
+          "tag": ["teste de contrato"]
+        }]
+      }
+    }
+  ]
+}
